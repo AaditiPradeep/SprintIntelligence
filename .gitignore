@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Environment variables and API tokens
+.env
+.env.*
+!.env.example
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+Dataset/
+
+# Model files and large generated data
+*.joblib
+*.pkl
+*.pt
+*.pth
+*.onnx
+data/raw/
+data/processed/*.csv
+data/processed/*.json
+
+# Keep project folders present
+!data/processed/.gitkeep
+
+# Dashboard temporary files
+dashboard/__pycache__/
+dashboard/backend/__pycache__/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
